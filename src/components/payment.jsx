@@ -11,11 +11,19 @@ export const PaymentPage = ()=>{
     let navigate = useNavigate()
     console.log(data)
     let str = data.discount
+    
     let nstr = str[0]+str[1]
     nstr = +nstr
-    let discountPrice = (data.Price*data.amount*nstr)/100
-    let fin = ((data.Price*data.amount) - discountPrice)
-
+    console.log(nstr + "i ma nastr")
+    let fin;
+    if(str === "N/A"){
+        fin = data.Price*data.amount
+    }else{
+        let discountPrice = Math.floor( (data.Price*data.amount*nstr)/100)
+        fin = Math.floor((data.Price*data.amount) - discountPrice)
+         
+    }
+    
     function handleChange1(value){
         if(value == true){
             setcheck1("checked1")
@@ -37,13 +45,13 @@ export const PaymentPage = ()=>{
         }else{
             if(check1 == "checked1"){
                 console.log("go 1")
-                localStorage.setItem("Booking","Offline Payment")
+                sessionStorage.setItem("Booking","Offline Payment")
                 alert("Offline Mode Selected")
                 navigate("/summarypage")
                 
             }else if(check2 == "checked2"){
                 console.log("go 2")
-                localStorage.setItem("Booking","Online Payment")
+                sessionStorage.setItem("Booking","Online Payment")
                 alert("Online Mode Selected : You will be taken to Payment Gateway")
                 navigate("/onlinePayment")
             }

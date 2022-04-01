@@ -13,13 +13,14 @@ export const ShowData = ()=>{
     let [datas,setDatas] = useState([])
     let dispatch = useDispatch()
     let setting = useSelector((state)=>state.locationFilter[0])
-    let check = JSON.parse(localStorage.getItem('location'))
-    if(check){
+    // let check = JSON.parse(localStorage.getItem('location'))
+    let check = setting
+    // if(check){
 
-    }else{
+    // }else{
         
-        localStorage.setItem("location",JSON.stringify(setting))
-    }
+    //     localStorage.setItem("location",JSON.stringify(setting))
+    // }
     
   console.log(datas)
 

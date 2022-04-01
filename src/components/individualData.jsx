@@ -15,15 +15,16 @@ export const IndividualData = ()=>{
     let navigate = useNavigate()
     // console.log(time,date,amount)
     // console.log(setting)
-    let checkId = JSON.parse(localStorage.getItem('shopid'))
+    // let checkId = JSON.parse(localStorage.getItem('shopid'))
+    let checkId = setting
     let [obj, setObj] = useState({})
 
-    if(checkId){
+    // if(checkId){
 
-    }else{
+    // }else{
         
-        localStorage.setItem("shopid",JSON.stringify(setting))
-    }
+    //     localStorage.setItem("shopid",JSON.stringify(setting))
+    // }
     useEffect(() => {
         function getdata(){
           fetch("https://automobilerepairapi.herokuapp.com/vehicle_shops")
