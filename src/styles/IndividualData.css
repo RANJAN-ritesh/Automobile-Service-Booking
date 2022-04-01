@@ -1,0 +1,196 @@
+.IndParent{
+margin-top:7rem;
+margin-left: 5rem;
+}
+.IndProd{
+    display: flex;
+}
+.IdetailsDiv{
+    width: 45rem;
+    margin-left: 7rem;
+}
+.InameDiv>p{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.IaddressDiv>p{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color:#565d65;
+}
+.IratingDiv{
+    display: flex;
+}
+.IimgDiv{
+    margin-top: 2.5rem;
+    
+}
+.IratingDiv>p:nth-child(1){
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: rgb(14, 14, 88);
+}
+.IratingDiv>p:nth-child(2){
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-left: 00.6rem;
+    margin-top: 1.6rem;
+}
+.IratingDiv>p:nth-child(3){
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-left: 00.3rem;
+    margin-top: 1.6rem;
+}
+.IratingDiv>img{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 1.65rem;
+    margin-left: 1rem;
+}
+.ItimeDiv{
+    display: flex;
+}
+.ItimeDiv>p:nth-child(1){
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: rgb(14, 14, 88);;
+}
+.ItimeDiv>p:nth-child(2){
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-left: 00.6rem;
+    margin-top: 1.6rem;
+}
+.IcontactDiv{
+    display: flex;
+}
+.IcontactDiv>p:nth-child(1){
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: rgb(14, 14, 88);
+}
+.IcontactDiv>p:nth-child(2){
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-left: 00.6rem;
+    margin-top: 1.6rem;
+}
+.IlocationDiv{
+    display: flex;
+}
+.IlocationDiv>p:nth-child(1){
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: rgb(14, 14, 88);
+}
+.IlocationDiv>p:nth-child(2){
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-left: 00.6rem;
+    margin-top: 1.6rem;
+}
+.IlocationDiv>p:nth-child(3){
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-left: 00.3rem;
+    margin-top: 1.6rem;
+}
+.IpriceDiv{
+    display: flex;
+}
+.IpriceDiv>p:nth-child(1){
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: rgb(14, 14, 88);;
+}
+.IpriceDiv>p:nth-child(2){
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-left: 00.6rem;
+    margin-top: 1.6rem;
+    color: #565d65;
+}
+.IdiscountDiv{
+    display: flex;
+}
+.IdiscountDiv>p:nth-child(1){
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: rgb(14, 14, 88);;
+}
+.IdiscountDiv>p:nth-child(2){
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-left: 00.6rem;
+    margin-top: 1.6rem;
+    color: red;
+}
+.IdiscountDiv>p:nth-child(3){
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-left: 00.4rem;
+    margin-top: 1.6rem;
+    color: red;
+}
+.Iamount{
+    display: flex;
+}
+.Iamount>p{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: rgb(14, 14, 88);;
+    margin-right: 1rem;
+}
+.Iamount>button{
+    width: 2rem;
+    height: 2rem;
+    margin-top: 1.3rem;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.Iamount>Input{
+    width:2rem;
+    height: 1.6rem;
+    margin-top: 1.3rem;
+    border: 2px soild black;
+    background-color: whitesmoke;
+    text-align: center;
+    font-weight: 600;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+.Timings{
+    display: flex;
+}
+.Timings>p{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: rgb(14, 14, 88);;
+}
+.Timings>input{
+    width: 8rem;
+    height: 2rem;
+    margin-top: 1.4rem;
+    margin-left: 1rem;
+    margin-right: 5rem;
+    border: 2px solid black;
+}
+.bookingButt>button{
+    width: 20rem;
+    padding:1rem 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+    background-color: black;
+    margin-top: 2rem;
+    margin-left: 6rem;
+    border: none;
+    border-radius: 00.5rem;
+}

@@ -1,0 +1,102 @@
+.ptop{
+    display: flex;
+    border:1px solid black;
+    width: 66rem;
+    padding: 1rem 2rem;
+    margin-left: 7rem;
+    margin-top: 5rem;
+}
+.PallData{
+    margin-top: 9rem;
+}
+.PaymentHeading>p{
+ font-size: 1.5rem;
+ font-weight: 600;
+}
+.paymentParent{
+    margin-left: 8rem;
+    margin-top: 2rem;
+}
+.pimg>img{
+    width: 15rem;
+    margin-top: 1rem;
+}
+.paymentBtn{
+    width: 8rem;
+    height: 2.5rem;
+    background-color: black;
+    font-size: 1rem;
+    font-weight: 500;
+    color:white;
+    border:none;
+    border-radius: 0.4rem;
+    margin-top: 1.5rem;
+}
+.pdetails{
+    margin-left: 3rem;
+    
+}
+.pname>p{
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.pamount{
+    display: flex;
+}
+.pamount>p:nth-child(1){
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.pamount>p:nth-child(2){
+    font-size: 1rem;
+    margin-left: 0.8rem;
+    margin-top: 1.3rem;
+}
+.pamount>p:nth-child(3){
+    font-size: 1rem;
+    font-weight: 500;
+    margin-left: 0.8rem;
+    margin-top: 1.3rem;
+}
+.pamount>p:nth-child(4){
+    font-size: 1rem;
+    text-decoration: line-through;
+    margin-left: 0.8rem;
+    color: red;
+    margin-top: 1.3rem;
+}
+.pamount>p:nth-child(5){
+    font-size: 1rem;
+    font-weight: 500;
+    margin-left: 0.8rem;
+    margin-top: 1.3rem;
+}
+.pamount>p:nth-child(6){
+    font-size: 1rem;
+    font-weight: 600;
+     color: blue;
+     margin-left: 0.8rem; 
+     margin-top: 1.3rem;
+}
+.pamount>p:nth-child(7){
+    font-size: 1rem;
+    margin-left: 0.8rem;
+    margin-top: 1.3rem;
+}
+.inputDivs{
+    display: flex;
+}
+.inputDivs>input{
+    margin-top: 2rem;
+    margin-right: 2rem;
+}
+.inputDivs>p{
+   font-size: 1.4rem;
+   font-weight: 500;
+}
+input[type=checkbox] {
+    transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    padding: 10px;
+}

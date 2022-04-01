@@ -1,0 +1,50 @@
+#location{
+    width: 40rem;
+    text-align: center;
+    height: 4rem;
+    border: 2px solid black;
+    font-size: 2rem;
+    color: rgb(6, 6, 98);
+    background-color: whitesmoke;
+}
+.parentMain1{
+    margin-left: 9rem;
+    margin-top: 1rem;
+    
+}
+.parent{
+background-image: url("https://imgs.search.brave.com/V8X2QmiHLIAyxbZdyv_x6XVHVBh3_IaMLBiZh-k18W8/rs:fit:1200:1118:1/g:ce/aHR0cDovL2FyY2hp/dGl6ZXItcHJvZC5p/bWdpeC5uZXQvbWVk/aWFkYXRhL3Byb2pl/Y3RzLzQ0MjAxMS8z/M2IwNGNjZC5qcGc_/cT02MCZhdXRvPWZv/cm1hdCxjb21wcmVz/cyZjcz1zdHJpcCZ3/PTE2ODA");
+    background-color: #cccccc;
+    background-size: 100% ;
+    padding: 16.5rem 9rem 16.5rem 10rem;
+}
+.parentMain2{
+    display: flex;
+   
+}
+
+.delhi{
+    width: 20rem;
+    border: 2px solid black;
+    text-align: center;
+    color: rgb(6, 6, 98);
+    height: 3.75rem;
+    background-color: whitesmoke;
+}
+.delhi>p{
+    font-size: 2rem;
+    margin-top: -0.1rem;
+    margin-top: 0.5rem;
+}
+.btnHome{
+    width: 20rem;
+    height: 3.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color:white;
+    background-color: black;
+    margin-top: 5rem;
+    margin-left: 20rem;
+    border: none;
+    border-radius: 0.35rem;
+}

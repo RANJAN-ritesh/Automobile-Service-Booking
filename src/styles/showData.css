@@ -1,0 +1,118 @@
+.mapParent{
+    display: flex;
+    /* border:2px solid red; */
+    margin-bottom: 1rem;
+    width: 72rem;
+    margin-left: 6rem;
+    background-color: whitesmoke;
+    padding-bottom: 0.8rem;
+    padding-left: 1rem;
+}
+.imgDiv>img{
+    width: 22rem;
+    height: 12.5rem;
+    margin-top: 1rem;
+    border-radius: 0.2rem;
+}
+
+.linkDecoration{
+    text-decoration: none;
+}
+#linkDec_name{
+    color: black;
+}
+#linkDec_add{
+    color:#7e7775;
+}
+#linkDec_time1{
+    color:black;
+    font-weight: 500;
+}
+#linkDec_time2{
+    color: rgb(68, 59, 59);
+    
+}
+#offerDec1{
+    color:black;
+    font-weight: 500;
+}
+#offerDec2{
+    color: rgb(68, 59, 59);
+}
+#rateDec1{
+    color:black;
+    font-weight: 500;
+}
+#rateDec2{
+    color: rgb(68, 59, 59);
+}
+#priceDec1{
+    color:black;
+    font-weight: 500;
+}
+#priceDec2{
+    color: rgb(68, 59, 59);
+}
+.detailsDiv{
+  display: flex;
+  flex-direction: column;
+  /* border:1px solid black; */
+  width: 45rem;
+  padding: 0rem 2rem;
+}
+.nameDiv{
+    display: flex;
+}
+.nameDiv>p{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.addressDiv{
+    font-size: 1.1rem;
+    color:red;
+}
+.timingsDiv{
+    display: flex;
+}
+.timingsDiv>div{
+    display: flex;
+}
+.timingsDiv>div>p:nth-child(2){
+    margin-left: 0.5rem;
+}
+.ratingDiv{
+    margin-left: 4rem;
+}
+.ratingDiv>p:nth-child(2){
+    margin-left: 0.5rem;
+}
+.offersDiv{
+    margin-left: 4rem;
+}
+.priceDiv{
+    display: flex;
+    margin-left: 4rem;
+}
+.priceDiv>p:nth-child(2){
+    margin-left: 00.5rem;
+}
+.sortingSelect{
+    width: 18rem;
+    padding: 0.7rem 1.2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 2px solid black;
+    border-radius: 00.5rem;
+    margin-left: 70rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+.sortingSelect>option{
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #f1d8d1;
+}
+.allData1{
+    padding-top: 7rem;
+}

@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Palette+Mosaic&family=Send+Flowers&family=Sigmar+One&display=swap");
+
+.comp_name>div>p{
+    font-family: 'Lavishly Yours', cursive;
+    font-family: 'Sigmar One', cursive;
+    
+    font-size: 2rem;
+}
+.img1{
+    width: 1.5rem; 
+}
+.img2{
+    width: 1rem; 
+}
+.img3{
+    width: 0.6rem; 
+}
+.MimgDiv{
+    margin-top: 3.1rem;
+    margin-left: 0.5rem;
+}
+.MnameDiv{
+    margin-left: 32rem;
+}
+.comp_name{
+    display: flex;
+    border-bottom: 2px solid red;
+    background-color: aqua;
+}
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    
+  }
